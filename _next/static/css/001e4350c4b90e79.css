@@ -1,0 +1,194 @@
+.menu_menu__dKP7w {
+    width: 256px;
+    right: -256px;
+    background-color: var(--background);
+    transition: all .25s ease-in-out
+}
+
+.menu_menuOpened__M8__y {
+    right: 0
+}
+
+.menuMobile_menu__B23eF {
+    width: 256px;
+    left: -256px;
+    background-color: var(--background);
+    transition: all .25s ease-in-out
+}
+
+.menuMobile_menuOpened___38PS {
+    left: 0
+}
+
+.movieCard_movieCard__rmkHO {
+    display: flex;
+    color: var(--text-primary);
+    flex-direction: column;
+    height: 100%;
+    position: relative
+}
+
+.movieCard_movieCard__rmkHO:hover .movieCard_movieCardPoster__hkU1W {
+    scale: 1.1
+}
+
+.movieCard_movieCard__rmkHO .movieCard_movieCardFilter__EZTIk {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1
+}
+
+.movieCard_movieCard__rmkHO:hover .movieCard_movieCardFilter__EZTIk {
+    background: linear-gradient(0deg,#0d0d0d,transparent)
+}
+
+.movieCard_movieCard__rmkHO:hover .movieCard_movieCardPlay__XniMs {
+    opacity: 1;
+    visibility: visible
+}
+
+.movieCard_movieCard__rmkHO:hover .movieCard_movieCardTitle__e1Ux0 {
+    color: var(--primary)
+}
+
+.movieCard_movieCard__rmkHO .movieCard_movieCardImage__RH4ma {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
+    background-color: var(--dark35);
+    width: inherit;
+    height: inherit;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    overflow: hidden;
+    aspect-ratio: 2/3;
+    transition: all .2s linear;
+    position: relative
+}
+
+.movieCard_movieCard__rmkHO .movieCard_movieCardBlur__q6bXX {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg,rgba(0,0,0,.75),transparent)
+}
+
+.movieCard_movieCard__rmkHO .movieCard_movieCardPoster__hkU1W {
+    width: 100%;
+    height: 100%;
+    transition: all .2s linear;
+    aspect-ratio: 2/3;
+    -o-object-fit: cover;
+    object-fit: cover
+}
+
+.movieCard_movieCard__rmkHO .movieCard_movieCardTitle__e1Ux0 {
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    margin-top: 8px;
+    font-weight: 500;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    transition: all .2s linear
+}
+
+.movieCard_movieCardHorizontal__CH8BZ {
+    display: flex;
+    color: var(--text-primary);
+    flex-direction: column;
+    height: 160px;
+    width: 256px;
+    position: relative
+}
+
+.movieCard_movieCardHorizontal__CH8BZ:hover .movieCard_movieCardPoster__hkU1W {
+    scale: 1.1
+}
+
+.movieCard_movieCardHorizontal__CH8BZ .movieCard_movieCardFilter__EZTIk {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 1
+}
+
+.movieCard_movieCardHorizontal__CH8BZ:hover .movieCard_movieCardFilter__EZTIk {
+    background: linear-gradient(0deg,#0d0d0d,transparent)
+}
+
+.movieCard_movieCardHorizontal__CH8BZ:hover .movieCard_movieCardPlay__XniMs {
+    opacity: 1;
+    visibility: visible
+}
+
+.movieCard_movieCardHorizontal__CH8BZ:hover .movieCard_movieCardTitle__e1Ux0 {
+    color: var(--primary)
+}
+
+.movieCard_movieCardHorizontal__CH8BZ .movieCard_movieCardBlur__q6bXX {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg,rgba(0,0,0,.75),transparent)
+}
+
+.movieCard_movieCardHorizontal__CH8BZ .movieCard_movieCardPoster__hkU1W {
+    height: 156px;
+    width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: all .2s linear
+}
+
+@media screen and (max-width: 767.98px) {
+    .movieCard_movieCardTitle__e1Ux0 {
+        font-size:1rem
+    }
+}
+
+.homeSlider_homeBannerSlider__pGgHF {
+    width: 200px
+}
+
+@media screen and (max-width: 767.98px) {
+    .homeSlider_homeBannerSlider__pGgHF {
+        width:160px
+    }
+}
+
+.homeSlider_homeBannerSliderHorizontal__7F1tt {
+    height: 160px;
+    width: 256px
+}
+
+@media screen and (max-width: 767.98px) {
+    .homeSlider_homeBannerSliderHorizontal__7F1tt {
+        width:256px
+    }
+}
+
+.homeSlider_homeHeading__SPFdn {
+    font-weight: 700;
+    -webkit-background-clip: text;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(90deg,red,#850000)
+}
+
+.styles_textGradient__uDkz3 {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent
+}
